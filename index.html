@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cúspide — Gestión integral de plagas urbanas. Fumigación, desinfección y control de fauna nociva a nivel nacional." />
+  <title>Cúspide | Control Integral de Plagas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+
+    <div class="nav-wrapper container">
+      <a href="#inicio" class="logo" aria-label="Cúspide inicio">
+        <img src="images/logo.svg" alt="Cúspide logo" width="38" height="38" />
+        <span class="logo-text">CÚSPIDE</span>
+      </a>
+
+      <!-- tabindex="-1" keeps the checkbox out of keyboard tab order; label handles focus -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" tabindex="-1" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir / cerrar menú" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio"    class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#nosotros"  class="nav-link">Nosotros</a></li>
+          <li><a href="#horario"   class="nav-link">Contacto</a></li>
+        </ul>
+        <div class="nav-socials">
+          <a href="https://www.facebook.com/profile.php?id=61589672765794" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><img src="images/s1.svg" alt="" width="16" height="16" /></a>
+          <a href="https://www.instagram.com/cuspide.plagas/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="images/s3.svg" alt="" width="16" height="16" /></a>
+          <a href="https://wa.me/message/6LVWX4LY6C3KC1" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><img src="images/s2.svg" alt="" width="16" height="16" /></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Slider -->
+    <div class="hero-slider swiper swiper-hero" id="inicio">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="hero-slide container">
+            <div class="hero-text">
+              <p class="hero-eyebrow">Control Profesional de Plagas</p>
+              <h1>¿QUIÉNES<br /><span>SOMOS?</span></h1>
+              <p class="hero-body">Empresa consolidada en gestión integral de plagas urbanas. Operamos a nivel nacional con personal altamente capacitado para superar las necesidades de nuestros clientes.</p>
+              <div class="hero-actions">
+                <a href="#nosotros" class="btn btn--outline">Más Información</a>
+                <a href="#servicios" class="btn btn--primary">Nuestros Servicios</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/fumi1.png" alt="Equipo de fumigación Cúspide" loading="eager" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="hero-slide container">
+            <div class="hero-text">
+              <p class="hero-eyebrow">Estándares de Calidad</p>
+              <h1>¿QUÉ<br /><span>OFRECEMOS?</span></h1>
+              <p class="hero-body">Fumigación y desinfección preventiva y correctiva mediante aspersión y micronización ULV. Productos biodegradables certificados para proteger personas y medio ambiente.
+                Garantizamos la confidencialidad y protección de datos mediante cláusulas alineadas con la LFPDPPP y la normativa vigente, asegurando la privacidad e integridad de la información de los usuarios.
+              </p>
+              <div class="hero-actions">
+                <a href="#servicios" class="btn btn--outline">Ver Servicios</a>
+                <a href="#horario"   class="btn btn--primary">Cotizar</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/fumi2.jpg" alt="Servicio de desinfección Cúspide" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="hero-slide container">
+            <div class="hero-text">
+              <p class="hero-eyebrow">Tecnología de Vanguardia</p>
+              <h1>FUMIGACIÓN<br /><span>PROFESIONAL</span></h1>
+              <p class="hero-body">Equipos de última generación y técnicos certificados. Resultados garantizados en cada intervención, adaptados a cada tipo de espacio y necesidad.</p>
+              <div class="hero-actions">
+                <a href="#servicios" class="btn btn--outline">Ver Servicios</a>
+                <a href="#horario"   class="btn btn--primary">Cotizar</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/fumi3.jpg" alt="Fumigación profesional Cúspide" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next" aria-label="Siguiente"></div>
+      <div class="swiper-button-prev" aria-label="Anterior"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </header>
+
+  <!-- ===================== SERVICIOS (TABS + SWIPERS) ===================== -->
+  <main id="servicios">
+    <section class="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Lo que tratamos</p>
+          <h2 class="section-title" id="services-title">NUESTROS SERVICIOS</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Categorías de plagas">
+
+          <input type="radio" name="tabs" id="tab1" class="tab-input" checked />
+          <label for="tab1" class="tab-label" role="tab" aria-selected="true" aria-controls="panel1">Artrópodos</label>
+          <div class="tab-panel" id="panel1" role="tabpanel" aria-labelledby="tab1">
+            <div class="swiper swiper-products" id="swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/cucaracha.png" alt="Cucaracha" loading="lazy" width="120" height="100" /><h3>Cucaracha</h3><p>Tratamiento integral con gel y aspersión dirigida.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/chinche.png"   alt="Chinche"   loading="lazy" width="120" height="100" /><h3>Chinche</h3><p>Tratamiento térmico y químico certificado.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/hormiga.png"   alt="Hormiga"   loading="lazy" width="120" height="100" /><h3>Hormiga</h3><p>Eliminación de colonias mediante cebos selectivos.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/araña.png"     alt="Araña"     loading="lazy" width="120" height="100" /><h3>Araña</h3><p>Aplicación residual en perímetros y rincones.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/alacran.png"   alt="Alacrán"   loading="lazy" width="120" height="100" /><h3>Alacrán</h3><p>Inspección, sellado y eliminación total.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Control</div><img src="images/termita.png"   alt="Termita"   loading="lazy" width="120" height="100" /><h3>Termita</h3><p>Inspección, sellado y quimico certificado.</p></div></div>
+              </div>
+              <div class="swiper-button-next" aria-label="Siguiente"></div>
+              <div class="swiper-button-prev" aria-label="Anterior"></div>
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab2" class="tab-input" />
+          <label for="tab2" class="tab-label" role="tab" aria-controls="panel2">Roedores</label>
+          <div class="tab-panel" id="panel2" role="tabpanel" aria-labelledby="tab2">
+            <div class="swiper swiper-products" id="swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Rodenticida</div><img src="images/rata.png"  alt="Rata"  loading="lazy" width="120" height="100" /><h3>Rata</h3><p>Cebos y trampas de monitoreo en puntos estratégicos.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Rodenticida</div><img src="images/raton.png" alt="Ratón" loading="lazy" width="120" height="100" /><h3>Ratón</h3><p>Control con estaciones de cebo certificadas y seguras.</p></div></div>
+              </div>
+              <div class="swiper-button-next" aria-label="Siguiente"></div>
+              <div class="swiper-button-prev" aria-label="Anterior"></div>
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab3" class="tab-input" />
+          <label for="tab3" class="tab-label" role="tab" aria-controls="panel3">Aves</label>
+          <div class="tab-panel" id="panel3" role="tabpanel" aria-labelledby="tab3">
+            <div class="swiper swiper-products" id="swiper3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Disuasión</div><img src="images/paloma.png"    alt="Paloma"    loading="lazy" width="120" height="100" /><h3>Paloma</h3><p>Sistemas de pinchos y mallas anti-anidamiento.</p></div></div>
+                <div class="swiper-slide"><div class="service-card"><div class="service-badge">Disuasión</div><img src="images/palomilla.png" alt="Palomilla" loading="lazy" width="120" height="100" /><h3>Palomilla</h3><p>Trampas de feromonas y tratamiento larvicida.</p></div></div>
+              </div>
+              <div class="swiper-button-next" aria-label="Siguiente"></div>
+              <div class="swiper-button-prev" aria-label="Anterior"></div>
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab4" class="tab-input" />
+          <label for="tab4" class="tab-label" role="tab" aria-controls="panel4">Desinfección</label>
+          <div class="tab-panel" id="panel4" role="tabpanel" aria-labelledby="tab4">
+            <div class="swiper swiper-products" id="swiper4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="service-card"><span class="service-badge">Sanitización</span><img src="images/virus.png" alt="Desinfección patógena" loading="lazy" width="120" height="100" /><h3>VIRUS</h3><p>Desinfección patógena de alto nivel con productos certificados.</p></div></div>
+              </div>
+              <div class="swiper-button-next" aria-label="Siguiente"></div>
+              <div class="swiper-button-prev" aria-label="Anterior"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== NOSOTROS ===================== -->
+  <section class="about" id="nosotros" aria-labelledby="about-title">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="images/fumi4.jpg" alt="Equipo técnico Cúspide en campo" loading="lazy" />
+        <div class="about-image-accent" aria-hidden="true"></div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">¿Por qué elegirnos?</p>
+        <h2 class="section-title" id="about-title">NUESTRO<br />EQUIPO</h2>
+        <p>Trabajamos con tecnología y equipos de última generación. Seleccionamos las mejores técnicas, productos certificados y personal especializado para ofrecer resultados visibles y duraderos.</p>
+        <ul class="about-list">
+          <li>Técnicos certificados con capacitación continua</li>
+          <li>Productos biodegradables de alto desempeño</li>
+          <li>Protocolos de seguridad para personas y mascotas</li>
+          <li>Servicio a nivel nacional con cobertura expandible</li>
+        </ul>
+        <a href="#horario" class="btn btn--primary">Solicitar Servicio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HORARIO Y CONTACTO ===================== -->
+  <section class="contact" id="horario" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Encuéntranos</p>
+        <h2 class="section-title" id="contact-title">CONTACTO</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-block">
+          <h4>Cobertura</h4>
+          <p>Estado de Mexico</p>
+          <p>CDMX</p>
+          <p>Puebla</p>
+        </div>
+        <div class="contact-block">
+          <h4>Horario</h4>
+          <p>Lunes — Domingo<br /><strong>24/7</strong></p>
+          
+        </div>
+        <div class="contact-block">
+          <h4>Teléfono</h4>
+          <p><a href="tel:5532727805">5532727805</a></p>
+          
+        </div>
+        <div class="contact-block">
+          <h4>Redes Sociales</h4>
+          <div class="contact-socials">
+            <a href="https://www.facebook.com/profile.php?id=61589672765794" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><img src="images/s1.svg" alt="" width="16" height="16" /></a>
+            <a href="https://www.instagram.com/cuspide.plagas/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="images/s3.svg" alt="" width="16" height="16" /></a>
+            <a href="https://wa.me/message/6LVWX4LY6C3KC1" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><img src="images/s2.svg" alt="" width="16" height="16" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MAPA ===================== -->
+  <section class="map-section" aria-label="Ubicación Cúspide">
+    <iframe
+      class="map-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.141404194853!2d-98.99214812593291!3d19.36302898190153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e2967491c0c7%3A0xf9ec8cd30b749457!2sPlaza%20Tepozan%2C%20Tepozanes%2C%2056428%20Los%20Reyes%20Acaquilpan%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1777497236325!5m2!1ses-419!2smx"
+      width="100%"
+      height="400"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Ubicación de Cúspide en el mapa">
+    </iframe>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <img src="images/logo.svg" alt="Cúspide logo" class="footer-logo" width="36" height="36" />
+        <span class="footer-logo-text">CÚSPIDE</span>
+        <p class="footer-tagline">Control integral de plagas.<br />Resultados que se ven.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Artrópodos</a></li>
+          <li><a href="#servicios">Roedores</a></li>
+          <li><a href="#servicios">Aves</a></li>
+          <li><a href="#servicios">Desinfección</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#horario">Contacto</a></li>
+          <li><a href="#">Aviso de Privacidad</a></li>
+          <li><a href="#">Certificaciones</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Síguenos</h4>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=61589672765794" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><img src="images/s1.svg" alt="" width="16" height="16" /></a>
+          <a href="https://www.instagram.com/cuspide.plagas/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="images/s3.svg" alt="" width="16" height="16" /></a>
+          <a href="https://wa.me/message/6LVWX4LY6C3KC1" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><img src="images/s2.svg" alt="" width="16" height="16" /></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; <span id="current-year"></span> Cúspide. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

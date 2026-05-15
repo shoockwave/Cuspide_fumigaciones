@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 490" fill="none">
+
+  <!-- FAR LEFT outer petal -->
+  <path d="M75 335 C15 270 25 165 115 145 C98 200 92 275 138 330 Z"
+        stroke="white" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- NEAR LEFT petal -->
+  <path d="M152 320 C112 250 128 158 198 128 C185 185 182 258 212 318 Z"
+        stroke="white" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- FAR RIGHT outer petal -->
+  <path d="M465 335 C525 270 515 165 425 145 C442 200 448 275 402 330 Z"
+        stroke="white" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- NEAR RIGHT petal -->
+  <path d="M388 320 C428 250 412 158 342 128 C355 185 358 258 328 318 Z"
+        stroke="white" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- CENTER TOP petal (tall pointed) -->
+  <path d="M270 22 C242 75 232 140 245 195 C258 165 270 120 270 75
+           C270 120 282 165 295 195 C308 140 298 75 270 22 Z"
+        stroke="white" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- INNER left sub-petal -->
+  <path d="M207 192 C202 160 215 124 244 110 C237 138 233 168 238 196 Z"
+        stroke="white" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- INNER right sub-petal -->
+  <path d="M333 192 C338 160 325 124 296 110 C303 138 307 168 302 196 Z"
+        stroke="white" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- BOTTOM wide arc (outermost) -->
+  <path d="M72 338 C95 420 182 468 270 470 C358 468 445 420 468 338"
+        stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <!-- BOTTOM middle arc -->
+  <path d="M150 322 C165 388 215 425 270 428 C325 425 375 388 390 322"
+        stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- BOTTOM inner arc -->
+  <path d="M205 310 C215 360 242 384 270 387 C298 384 325 360 335 310"
+        stroke="white" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+  <!-- WING arcs left -->
+  <path d="M210 258 C225 232 248 220 270 220"
+        stroke="white" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M196 272 C210 238 245 218 270 218"
+        stroke="white" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- WING arcs right -->
+  <path d="M330 258 C315 232 292 220 270 220"
+        stroke="white" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M344 272 C330 238 295 218 270 218"
+        stroke="white" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- CENTER vertical stem -->
+  <line x1="270" y1="205" x2="270" y2="290"
+        stroke="white" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- TRIANGLE above stem -->
+  <path d="M258 222 L270 205 L282 222"
+        stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- CENTER bead circle -->
+  <circle cx="270" cy="310" r="20"
+          stroke="white" stroke-width="12" fill="none"/>
+
+</svg>
